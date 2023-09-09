@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.flag{
+    height: fit-content;
+    width: 510px;
+}
+.orange{
+    width: 510px;
+    height: 100px;
+    background-image: linear-gradient( 135deg, #ff9f45 10%, #F55555 100%);
+    border-left: 10px solid rgb(86, 23, 23);
+}
+.white{
+    width: 510px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-left: 10px solid rgb(86, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ashok-chakra{
+    height: 100%;
+    width: 100px;
+    outline: 3px solid blue;
+    border-radius: 50%;
+    position: relative;
+}
+.line{
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: blue;
+    left: 50%;
+}
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(150deg);
+}
+.line:nth-child(11){
+    transform: rotate(165deg);
+}
+.line:nth-child(12){
+    transform: rotate(180deg);
+}
+.green{
+    width: 510px;
+    height: 100px;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #96f43f 0%, #16A085 100%);
+    border-left: 10px solid rgb(86, 23, 23);
+}
+.top, .bottom{
+    width: 510px;
+    background-color: none;
+    border-left: 10px solid rgb(86, 23, 23);
+}
+.top{
+    height: 20px;
+}
+.bottom{
+    height: 250px;
+    position: relative;
+}
+.base-1{
+    width: 80px;
+    height: 30px;
+    background-color: darkslategrey;
+    position: absolute;
+    bottom: -15px;
+    left: -45px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.base-2{
+    width: 120px;
+    height: 40px;
+    background-color: darkslategrey;
+    position: absolute;
+    bottom: -55px;
+    left: -66px;
+    border: 3px solid white;
+}
+.wish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wish h1{
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+#year{
+   color: #ff0000;
+   -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+#Happy{
+    color: rgb(255, 77, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+#Independence{
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+#Day{
+    color: #16A085;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
